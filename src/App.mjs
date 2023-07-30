@@ -24,12 +24,12 @@ export default class App extends LitElement {
    * Creates a route for the given pattern and associates it with a custom web component.
    *
    * @param {string} pattern the URL pattern to match for the route.
-   * @param {new (context: any) => LitElement} component the component class to be instantiated when the route is activated.
+   * @param {new (context: Context) => LitElement} component the component class to be instantiated when the route is activated.
    * @param {string?} title the title to display in the URL bar
    * @returns {void}
    */
   createRoute(pattern, component, title = "%project-name%") {
-    page(pattern, (/** @type {any} */ context) => {
+    page(pattern, (context) => {
       this.currentPage = new component(context);
     });
   }
