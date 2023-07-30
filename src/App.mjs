@@ -25,7 +25,7 @@ export default class App extends LitElement {
    * @param {string?} title the title to display in the URL bar
    * @returns {void}
    */
-  createRoute(pattern, component, title = "<project-name>") {
+  createRoute(pattern, component, title = "%project-name%") {
     page(pattern, (/** @type {any} */ context) => {
       this.currentPage = new component(context);
     });
