@@ -1,5 +1,5 @@
 /* global page */
-import { css, LitElement } from "./lib/lit-all.js";
+import { css, LitElement } from "./lib/lit-all@2.7.6.js";
 
 // Add global styles to head for resets and fonts
 const style = document.createElement("style");
