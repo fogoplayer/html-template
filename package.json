@@ -8,8 +8,7 @@
     "test": "clear && jest tests/app.test.js && npm run lint",
     "deployprod": "git checkout main && git merge dev --no-edit && git push && firebase deploy --only hosting -P prod && git checkout dev",
     "deploydev": "git checkout dev && git push && firebase deploy --only hosting -P default",
-    "lint": "npx eslint --fix './src' --ext .mjs",
-    "typecheck": "npx tsc"
+    "lint": "npx eslint --fix './src' --ext .mjs && npx tsc"
   },
   "author": "Zarin Loosli",
   "license": "ISC",
