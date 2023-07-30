@@ -1,5 +1,8 @@
 # WikiGuessr
 
+%project-name%
+%firebase-config%
+
 ## Contributing
 
 Things we like to see in contributions:
