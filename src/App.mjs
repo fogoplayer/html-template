@@ -1,6 +1,8 @@
 /* global page */
 import { css, LitElement } from "./lib/lit-all@2.7.6.js";
-import globalCss from "../global-styles/global.css.mjs";
+import globalCss from "./global-styles/global.css.mjs";
+
+import Home from "./pages/Home.mjs";
 
 // Add global styles to head for resets and fonts
 const style = document.createElement("style");
