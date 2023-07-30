@@ -1,4 +1,4 @@
-import { css } from "../lib/lit-all.js";
+import { css } from "../libs/lit-all@2.7.6.js";
 import linuxLibertine from "./fonts/linux-libertine/family.css.mjs";
 import materialSymbols from "./fonts/material-symbols/family.css.mjs";
 import sedgwickAveDisplay from "./fonts/sedgwick-ave-display/family.css.mjs";

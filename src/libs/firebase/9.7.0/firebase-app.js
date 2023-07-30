@@ -1415,7 +1415,7 @@ function isVersionServiceProvider(provider) {
   );
 }
 
-const name$o = "../../lib/firebase/9.7.0/firebase-app.js";
+const name$o = "../../libs/firebase/9.7.0/firebase-app.js";
 const version$1 = "0.7.22";
 
 /**
@@ -1434,17 +1434,17 @@ const version$1 = "0.7.22";
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-const logger = new Logger("../../lib/firebase/9.7.0/firebase-app.js");
+const logger = new Logger("../../libs/firebase/9.7.0/firebase-app.js");
 
-const name$n = "../../lib/firebase/9.7.0/firebase-app.js-compat";
+const name$n = "../../libs/firebase/9.7.0/firebase-app.js-compat";
 
 const name$m = "@firebase/analytics-compat";
 
 const name$l = "@firebase/analytics";
 
-const name$k = "../../lib/firebase/9.7.0/firebase-app.js-check-compat";
+const name$k = "../../libs/firebase/9.7.0/firebase-app.js-check-compat";
 
-const name$j = "../../lib/firebase/9.7.0/firebase-app.js-check";
+const name$j = "../../libs/firebase/9.7.0/firebase-app.js-check";
 
 const name$i = "@firebase/auth";
 
@@ -1821,7 +1821,7 @@ function initializeApp(options, rawConfig = {}) {
   return newApp;
 }
 /**
- * Retrieves a {@link ../../lib/firebase/9.7.0/firebase-app.js#FirebaseApp} instance.
+ * Retrieves a {@link ../../libs/firebase/9.7.0/firebase-app.js#FirebaseApp} instance.
  *
  * When called with no arguments, the default app is returned. When an app name
  * is provided, the app corresponding to that name is returned.

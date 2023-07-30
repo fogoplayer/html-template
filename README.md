@@ -56,7 +56,7 @@ A service worker that will cache files as the user visits them. If you are using
 Helper functions for Firebase Auth and Firestore. Read the documentation for more details.
 
 ### Global Styles
-Some basic CSS resets
+Some basic CSS resets. Also includes the Material Symbols Sharp font family, available with `.material-symbols`
 
 ### Authentication Pages
 While not routed, simple signup, login, and forgot password pages are included. They use the Firebase services. Signup and Login support a `redirect` query parameter to send the user to a specific location after authenticating.

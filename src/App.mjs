@@ -1,4 +1,4 @@
-import { css, LitElement } from "./lib/lit-all@2.7.6.js";
+import { css, LitElement } from "./libs/lit-all@2.7.6.js";
 import globalCss from "./global-styles/global.css.mjs";
 
 import Home from "./pages/Home.mjs";

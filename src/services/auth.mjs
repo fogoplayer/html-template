@@ -15,7 +15,7 @@ import {
   signInAnonymously,
   signInWithEmailAndPassword,
   signOut,
-} from "../lib/firebase/9.7.0/firebase-auth.js";
+} from "../libs/firebase/9.7.0/firebase-auth.js";
 import firebaseApp from "./firebase-app.mjs";
 
 export const auth = getAuth(firebaseApp);

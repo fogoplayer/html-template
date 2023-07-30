@@ -1,4 +1,4 @@
-import { css } from "../lib/lit-all.js";
+import { css } from "../libs/lit-all@2.7.6.js";
 
 export default css`
   :where(*) {

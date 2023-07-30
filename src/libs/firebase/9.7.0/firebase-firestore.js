@@ -23925,7 +23925,7 @@ class fc {
           )));
   }
   /**
-   * The {@link ../../lib/firebase/9.7.0/firebase-app.js#FirebaseApp} associated with this `Firestore` service
+   * The {@link ../../libs/firebase/9.7.0/firebase-app.js#FirebaseApp} associated with this `Firestore` service
    * instance.
    */ get app() {
     if (!this._app)
@@ -24687,7 +24687,7 @@ class Vc extends dc {
  * {@link getFirestore}. If the custom settings are empty, this function is
  * equivalent to calling {@link getFirestore}.
  *
- * @param app - The {@link ../../lib/firebase/9.7.0/firebase-app.js#FirebaseApp} with which the {@link Firestore} instance will
+ * @param app - The {@link ../../libs/firebase/9.7.0/firebase-app.js#FirebaseApp} with which the {@link Firestore} instance will
  * be associated.
  * @param settings - A settings object to configure the {@link Firestore} instance.
  * @returns A newly initialized {@link Firestore} instance.
@@ -24715,10 +24715,10 @@ class Vc extends dc {
 
 /**
  * Returns the existing {@link Firestore} instance that is associated with the
- * provided {@link ../../lib/firebase/9.7.0/firebase-app.js#FirebaseApp}. If no instance exists, initializes a new
+ * provided {@link ../../libs/firebase/9.7.0/firebase-app.js#FirebaseApp}. If no instance exists, initializes a new
  * instance with default settings.
  *
- * @param app - The {@link ../../lib/firebase/9.7.0/firebase-app.js#FirebaseApp} instance that the returned {@link Firestore}
+ * @param app - The {@link ../../libs/firebase/9.7.0/firebase-app.js#FirebaseApp} instance that the returned {@link Firestore}
  * instance is associated with.
  * @returns The {@link Firestore} instance of the provided app.
  */ function Sc(e = getApp()) {

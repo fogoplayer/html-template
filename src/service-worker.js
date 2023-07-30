@@ -4,7 +4,7 @@ const VERSION = "1.0.0";
 
 const CACHE = "pwabuilder-offline";
 
-importScripts("./lib/workbox-sw.js");
+importScripts("./libs/workbox-sw.js");
 
 self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") {

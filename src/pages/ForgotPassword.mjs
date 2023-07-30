@@ -1,4 +1,4 @@
-import { LitElement, html, css } from "../lib/lit-all.js";
+import { LitElement, html, css } from "../libs/lit-all@2.7.6.js";
 import globalCss from "../global-styles/global.css.mjs";
 import { sendPasswordResetEmail } from "../services/auth.mjs";
 
