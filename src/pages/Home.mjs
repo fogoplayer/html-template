@@ -1,4 +1,3 @@
-/* global page */
 import { LitElement, html, css } from "../lib/lit-all@2.7.6.js";
 import globalCss from "../global-styles/global.css.mjs";
 
