@@ -16,6 +16,7 @@ export default class App extends LitElement {
 
   constructor() {
     super();
+    page.base("/html-template/src/");
     this.createRoute("/", Home);
     page.start();
   }
