@@ -5,22 +5,18 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "command": "npm start",
-      "name": "Run npm start",
+      "name": "Launch Program",
+      "type": "go",
       "request": "launch",
-      "type": "node-terminal"
+      "mode": "auto",
+      "program": "${workspaceFolder}",
     },
     {
-      "command": "npm test",
-      "name": "Run tests",
+      "name": "Launch Package",
+      "type": "go",
       "request": "launch",
-      "type": "node-terminal"
-    }
-    {
-      "command": "npm lint",
-      "name": "Lint project",
-      "request": "launch",
-      "type": "node-terminal"
-    }
-  ]
+      "mode": "auto",
+      "program": "${fileDirname}",
+    },
+  ],
 }
